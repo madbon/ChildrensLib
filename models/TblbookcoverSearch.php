@@ -42,7 +42,7 @@ class TblbookcoverSearch extends TblBookCover
      */
     public function search($params)
     {
-        $query = TblBookCover::find();
+        $query = TblBookCover::find()->orderBy(['BOOK_TITLE' =>SORT_ASC]);
 
         // add conditions that should always apply here
 

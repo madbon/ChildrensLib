@@ -41,7 +41,7 @@ class LanguageSearch extends TblLanguage
      */
     public function search($params)
     {
-        $query = TblLanguage::find();
+        $query = TblLanguage::find()->orderBy(['LANGUAGE' =>SORT_ASC]);
 
         // add conditions that should always apply here
 

@@ -41,7 +41,7 @@ class CategorySearch extends TblCategory
      */
     public function search($params)
     {
-        $query = TblCategory::find();
+        $query = TblCategory::find()->orderBy(['CATEGORY_TITLE' =>SORT_ASC]);
 
         // add conditions that should always apply here
 

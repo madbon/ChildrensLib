@@ -41,7 +41,7 @@ class ColorSearch extends TblColor
      */
     public function search($params)
     {
-        $query = TblColor::find();
+        $query = TblColor::find()->orderBy(['COLOR_NAME' =>SORT_ASC]);
 
         // add conditions that should always apply here
 
