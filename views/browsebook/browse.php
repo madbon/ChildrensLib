@@ -67,10 +67,10 @@
             <div class="col-lg-8 col-md-8 col-sm-8 col-xm-8">
                 <div class="panel panel-default" style="border-radius: 20px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; height: 500px;">
                     <br>
-                    <h1 style="text-align: center; font-family: 'Asap', sans-serif; font-weight: bold; line-height: 30px; font-size: 4em">
+                    <h1 style="text-shadow: 3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;text-align: center; font-family: 'Asap', sans-serif; font-weight: bold; line-height: 30px; font-size: 4em; color: rgb(162,192,231);">
                     Children's StoryPlace</h1>
                     <br/>
-                    <h2 style="text-align: center; text-decoration: underline; font-size: 40px; text-transform: uppercase; font-weight: bolder; font-family: 'Asap', sans-serif;">Browse to Amaze</h2>
+                    <h2 style="text-shadow: 3px 0 black, 0 1px black, 1px 0 black, 0 -1px black; text-align: center;  font-size: 40px; text-transform: uppercase; font-weight: bolder; font-family: arial black, sans-serif; color:rgb(233,116,54);"> <i class="fa fa-book" style="color:rgb(66,61,59);"></i> Browse to Amaze <i class="fa fa-child" style="color:rgb(153,51,153); font-size: 70px;"></i></h2>
                     <div id="filtered" ng-show="filters.length != 0" style=" z-index: 1; width: 50%; margin: 0 auto; height: 100px; position: absolute; left: 0; right: 0; overflow-x: hidden; overflow-y: hidden; white-space:nowrap">
                         <div style="width:8%; height: 100px; margin: 10px; display: inline-block;" ng-click="remove($event)" ng-repeat="filter in filters">
                             <input type="hidden" value="{{ filter.id }}">
