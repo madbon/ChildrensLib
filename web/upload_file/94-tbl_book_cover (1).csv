@@ -1,0 +1,4 @@
+CATEGORY_ID,CATEGORYCONTENT_ID,COLOR_VALUE,BOOK_TITLE,BOOK_AUTHOR,BOOK_ILLUSTRATOR,BOOK_PUBLISHER,BOOK_PUBLICATIONDATE,LANGUAGE_ID,BOOK_SUMMARY,BOOK_DESCRIPTION,BOOKCOUNT_PAGES,ISBN,LOCATION,CODELIBRARY
+3,2,1,Felix The Cat,Mr. Author,Mr. Illiustrator,Mr. Publisher,12/12/1995,2,The journey of felix the cat,Felix the cat description,134,,,
+8,2,1,Another book,Mr. Author,Mr. Illustrator,Mr. Publisher,2001,3,Summary,,13,,,
+8,"4,15,31","2,3",Yellow Cat,,,,,2,,NULL,NULL,,,
